@@ -1,0 +1,49 @@
+@import "../../Dashboard/Dashboard.module.scss";
+
+$additional: #1EC6BD;
+
+.infoCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  div:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .mainInfo {
+    color: $header-color;
+    font-weight: 500;
+
+    .value {
+      font-size: 44px;
+    }
+
+    .unit {
+      font-size: 24px;
+    }
+  }
+
+  .additionalInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $additional;
+    border: 2px solid $additional;
+    border-radius: 24px;
+    font-size: 21px;
+    padding: 8px 16px;
+    width: 135px;
+    box-sizing: border-box;
+    font-weight: 500;
+
+    i {
+      font-size: 24px;
+    }
+  }
+
+  .description {
+    color: #6F809D;
+    font-size: 16px;
+  }
+}

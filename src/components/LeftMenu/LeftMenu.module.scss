@@ -1,0 +1,34 @@
+nav.leftMenu {
+  background-color: #181A1E;
+  color: rgba(255, 255, 255, 0.7);
+  width: 256px;
+  transition: width 0.2s ease;
+
+  &.invisible {
+    width: 0;
+    z-index: -1
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin: 0;
+    list-style-type: none;
+    align-items: flex-start;
+
+    li {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      &:hover {
+        color: #fff;
+      }
+
+      i, span {
+        margin: 8px;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@font-face {
+ font-family: "Roboto";
+ src: url("/Roboto-Regular.ttf") format("opentype");
+ font-weight: 400;
+}
+
+@font-face {
+ font-family: "Roboto";
+ src: url("/Roboto-Medium.ttf") format("opentype");
+ font-weight: 500;
+}
+
+.App {
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  background-color: #121212;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  min-width: fit-content;
+  min-height: 100vh;;
+}
+
+body {
+  margin: 0;
+}

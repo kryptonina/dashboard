@@ -1,0 +1,29 @@
+@import "../../Dashboard/Dashboard.module.scss";
+
+.section {
+  margin-top: 54px;
+
+  .header {
+    margin-bottom: 16px;
+    cursor: pointer;
+    width: max-content;
+
+    .title {
+      display: flex;
+      align-items: center;
+
+      .icon {
+        color: $header-color;
+        margin-right: 5px;
+      }
+    }
+
+    .line {
+      width: 100px;
+      background-color: $header-color;
+      height: 4px;
+      border-radius: 4px;
+      margin-top: 8px;
+    }
+  }
+}

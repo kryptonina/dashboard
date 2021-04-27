@@ -1,0 +1,25 @@
+.legend {
+  list-style-type: none;
+  color: #6E7788;
+  font-size: 13px;
+  column-count: 2;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+
+  .legendItem {
+    display: grid;
+    grid-template-columns: 24px 1fr;
+    align-items: center;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    text-align: left;
+
+    .legendIcon {
+      height: 16px;
+      width: 16px;
+      border-radius: 2px;
+      margin-right: 8px;
+    }
+  }
+}
