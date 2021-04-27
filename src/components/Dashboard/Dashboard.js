@@ -11,7 +11,7 @@ export default function Dashboard() {
       title="Исполнение бюджета"
       content={
         <Grid  container spacing={3} alignItems="stretch" className={style.container}>
-          <Grid item xs={12} md={7} className={style.widget}>
+          <Grid item xs={12} lg={7} className={style.widget}>
             <Widget
               type="horizontalBar"
               title="Распределение уровня исполнения программных расходов январь-сентябрь 2018 год"
@@ -19,7 +19,7 @@ export default function Dashboard() {
               props={{data: horizontalBarData}}
              />
            </Grid>
-           <Grid item xs={12} md={5}>
+           <Grid item xs={12} lg={5}>
             <Grid
               container
               className={style.rightBlock}
@@ -61,7 +61,7 @@ export default function Dashboard() {
       title="Уровень жизни"
       content={
         <Grid  container spacing={3} alignItems="stretch" className={style.container}>
-          <Grid item xs={12} md={5} className={style.widget}>
+          <Grid item xs={12} lg={5} className={style.widget}>
             <Widget type="pie"
               title="Оценка уровня дохода семей"
               height="525px"
@@ -69,7 +69,7 @@ export default function Dashboard() {
               props={{data: pieData}}
              />
           </Grid>
-          <Grid item xs={12} md={7} className={style.widget}>
+          <Grid item xs={12} lg={7} className={style.widget}>
             <Widget type="line"
               title="Оценка уровня доходов семей"
               height="525px"

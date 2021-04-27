@@ -11,6 +11,12 @@ $header-color: #5c96f3;
     margin: 0 -12px;
   }
 
+  @media (max-width: 1024px) {
+    .container {
+      width: 100%;
+    }
+  }
+
   .widget:not(:last-child) {
     padding-bottom: 10px;
   }

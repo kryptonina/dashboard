@@ -9,13 +9,13 @@ export default function HorizontalBarChart (props) {
   return (<BarChart
     className={style.chart}
     layout="vertical"
-    width={700}
+    width={900}
     height={500}
     data={data}
     margin={{
-      top: 20,
-      right: 45,
-      bottom: 20,
+      top: 0,
+      right: 25,
+      bottom: 0,
       left: 0,
     }}
   >
